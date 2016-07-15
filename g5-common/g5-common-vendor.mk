@@ -16,9 +16,26 @@
 
 # Pick up overlay for features that depend on non-open-source files
 PRODUCT_PACKAGES += \
-    TimeService \
+    CNEService \
+    com.qualcomm.location \
+    dpmserviceapp \
+    ImsVT \
+    Ims4 \
+    QtiTelephonyService \
+    QtiTetherService \
+    shutdownlistener \
+    TimeService
+
+PRODUCT_PACKAGES += \
+    qcnvitems \
+    qcrilhook \
+    qcrilmsgtunnel
+
+PRODUCT_PACKAGES += \
+    libloc_api_v02
+
+PRODUCT_PACKAGES += \
     libtime_genoff \
-    libTimeService \
-    com.qualcomm.location
+    libthermalclient
 
 $(call inherit-product, vendor/lge/g5-common/g5-common-vendor-blobs.mk)
