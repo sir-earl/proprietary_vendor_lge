@@ -19,8 +19,6 @@ PRODUCT_PACKAGES += \
     CNEService \
     com.qualcomm.location \
     dpmserviceapp \
-    ImsVT \
-    Ims4 \
     QtiTelephonyService \
     QtiTetherService \
     shutdownlistener \
